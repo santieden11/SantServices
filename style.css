@@ -1,10 +1,12 @@
 
-
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 .encabezado 
 {
     position: relative;
-    width: 1200px;
+    width: 940px;
     margin:auto;
    
 
@@ -38,4 +40,69 @@ nav a
 .baner1
 {
     width: 100%;
+}
+
+
+.ubicacion {
+padding: 3em 0;
+
+}
+
+.mapa{
+width: 940px;
+margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+
+.contenido-diferenciales{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+.contenido-diferenciales li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .encabezado, .principal, .ubicacion, .diferenciales {
+        width: auto;
+    }
+   
+
 }
