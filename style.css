@@ -1,6 +1,11 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#FEFEFE, #0840cd) 
+}
+header{
+    background:url(img/banner.png) ;
+
 }
 
 .encabezado 
@@ -8,7 +13,7 @@ body{
     position: relative;
     width: 940px;
     margin:auto;
-   
+   background:url(img/banner.png) ;
 
 }
 .logo
@@ -32,7 +37,7 @@ nav li
 nav a
 {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight:bold;
     font-size: 22px;
 
@@ -40,6 +45,13 @@ nav a
 .baner1
 {
     width: 100%;
+}
+main{
+     
+}
+.principal{
+
+    padding: 3em 0;
 }
 
 
@@ -51,34 +63,99 @@ padding: 3em 0;
 .mapa{
 width: 940px;
 margin: 0 auto;
+
 }
 
 .titulo-principal{
+    
+    margin: 0 0 1em;
+    
+
+   
+}
+
+.titulo-principal p{
     text-align: center;
     font-size: 2em;
-    margin: 0 0 1em;
+    color: rgb(255, 255, 255);
     clear:left;
+    font-weight: bold;
+    background: #0840cd;
+    border-radius: 25px;
+    padding: 15px 0;
+    width: 50%;
+    height: 100%;
+    margin:  auto;
+
 }
 
 
-.contenido-diferenciales{
+.servicios{
+
+    padding: 3em 0;
+}
+
+.contenido-servicios{
     width: 940px;
     margin: 0 auto;
-    padding: 50px;
+    
 
 }
-.contenido-diferenciales li{
+.contenido-servicios li{
+    background: #FEFEFE;
     display: inline-block;
     text-align: center;
+    color: #0840cd;
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 3px solid #0840cd;
     border-radius: 10px;
 
 
+}
+
+
+.contenido-servicios h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+footer{
+    position: relative;
+  
+    margin:auto;
+    text-align: center;
+    background: url(img/footer.jpg);
+    padding:40px;
+
+}
+.pie{
+    margin-left: 46%;
+   
+    text-align: center;
+   
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.logo-pie{
+    
+   /*  margin-top: 15px;
+    margin-left: 10px;
+    /* text-align: center; */
+    width: 100%;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
 }
 
 
@@ -100,7 +177,7 @@ margin: 0 auto;
     nav{
         position: static;
     }
-    .encabezado, .principal, .ubicacion, .diferenciales {
+    .encabezado, .principal, .ubicacion, .diferenciales,.footer {
         width: auto;
     }
    
