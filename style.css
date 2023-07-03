@@ -177,9 +177,17 @@ footer{
     nav{
         position: static;
     }
-    .encabezado, .principal, .ubicacion, .diferenciales,.footer {
+    .encabezado, .principal, .ubicacion, .contenido-servicios,.footer {
         width: auto;
     }
-   
-
+.mapa{
+    width: auto;
+}
+.contenido-servicios{
+    width: auto;
+}
+.contenido-servicios li{
+    width: auto;
+    display:block;
+}
 }
